@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+     box-sizing: border-box; 
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    background-image: url(webi.png);
+}
+
+.logo{
+    height: 100px;
+    margin-left: 100px;
+    border-radius:70px;
+
+}
+.nav{
+    display: flex;
+    position:relative;
+    top:30px;
+    
+}
+.menu{
+    position: absolute;
+    right: 50px;
+}
+.menu ul{
+    
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 50px;
+    
+}
+.menu ul li a{
+    color:white;
+    text-decoration: none;
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content{
+    color:white;
+    text-align: center;
+    position:relative;
+    top:300px;
+    left:160px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.content button{
+    padding: 10px;
+    margin: 10px;
+    border-radius:15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    
+
+}
+.content button:hover{
+    background-color: coral;
+}
+.nav ul li a:hover{
+    color:coral;
+}
+
